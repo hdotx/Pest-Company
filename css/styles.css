@@ -594,7 +594,44 @@ nav ul li a{
     height: 500px;
 }
 
+/* Service Description */
+.service-description{
+    margin: 2rem 0;
+    text-align: center;
+    line-height: 2rem;
+    padding-bottom: 4rem;
+}
 
+.service-description .section-container p{
+    margin: .8rem 0 1rem;
+    font-weight: 500;
+}
+
+/*. Free Quote Buttons */
+button, input[type="button"], input[type="reset"], input[type="submit"] {
+    background-color: #c33;
+    webkit-border-radius: 5px;
+    moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: .5rem 1rem;
+    color: #fff;
+    border: 1px solid #e33;   
+}
+
+button:hover, input[type="button"]:hover, input[type="reset"]:hover, input[type="submit"]:hover,
+button:focus, input[type="button"]:focus, input[type="reset"]:focus, input[type="submit"]:focus {
+    outline: none;
+    border: 1px solid #b33;
+    cursor: pointer;
+}
+
+button:active, input[type="button"]:active, input[type="reset"]:active, input[type="submit"]:active {
+  outline: none;
+  position: relative;
+  top: 2px;
+  left: -2px;
+  box-shadow: -2px 2p 0 #a33; 
+}
 
 
 /* Footer */
