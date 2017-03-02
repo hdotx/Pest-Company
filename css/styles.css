@@ -508,6 +508,50 @@ body{
     transform: scale(1.25);
 }
 
+/*  Company Logo */
+
+.logo{
+    height: 6.5rem;
+    width: 67.5rem;
+    margin: 0 auto;
+    display: flex;
+}
+
+.logo-company{
+    text-align: center;
+    flex-basis: 50%;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin: 1rem;
+    text-shadow: 3px 1px 1px #777;
+}
+
+.logo-company span:nth-of-type(2){
+    display:block;
+}
+
+.logo-company span:nth-of-type(2),
+.logo-company span:last-child{
+    font-size: 2rem;
+    color: #F40; /* orangered */
+}
+
+
+.logo-contact{
+    flex-basis: 50%;
+    text-align: center;
+}
+
+.logo-contact p{
+    position: relative;
+    top: 1.75rem;
+}
+
+
+
+
+
+
 
 /* Footer */
 
