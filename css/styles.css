@@ -547,8 +547,52 @@ body{
     top: 1.75rem;
 }
 
+/* Nav Bar */
 
+nav{
+    height: 3rem;
+    border-top: 1px solid #666;
+}
 
+nav ul{
+   display: flex;
+   height: inherit;
+}
+
+nav ul li{
+    float: left;
+    list-style: none;
+    flex: 1;
+    margin: auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+nav ul li a{
+    text-decoration: none;
+    margin: 2rem;
+    color: black;
+}
+
+.nav ul li a.active{
+    border: 2px solid red;
+}
+
+/* Insect Photos */
+
+.insect-photo{
+    border-top: 3px solid #000;
+    border-bottom: 3px solid #000;
+}
+
+.insect-photo .section-container{
+    height: 500px;
+}
+
+.insect-photo img{
+    width: 100%;
+    height: 500px;
+}
 
 
 
