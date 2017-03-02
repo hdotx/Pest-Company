@@ -633,6 +633,27 @@ button:active, input[type="button"]:active, input[type="reset"]:active, input[ty
   box-shadow: -2px 2p 0 #a33; 
 }
 
+/* Service Logo Description */
+.service-logo-description .section-container{
+    display: flex;
+    margin: auto;
+    margin-top: 3rem;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+.section-container .col{
+    flex-basis: 30%;
+    text-align: center;
+    line-height: 1.5rem;
+}
+
+.section-container .col img{
+    margin-bottom: .8rem;
+}
+
+
+
 
 /* Footer */
 
