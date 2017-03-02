@@ -509,6 +509,20 @@ body{
 }
 
 
+/* Footer */
+
+footer{
+    background-color: #444;
+    color: #fff;
+}
+
+footer .footer-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 0 1%;
+}
+
+
 
 
 
