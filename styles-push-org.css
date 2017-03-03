@@ -535,41 +535,30 @@ body{
 /* Nav Bar */
 
 nav{
-    height: 11rem;
+    height: 3rem;
     border-top: 1px solid #666;
-	background-color: #ddd;
 }
 
 nav ul{
    display: flex;
-   margin-top: .5rem;
-   line-height: 2rem;
-   flex-direction: column;
+   height: inherit;
+   flex-wrap: wrap;
 }
 
 nav ul li{
+    float: left;
     list-style: none;
+    flex: 1;
+    margin: auto;
     text-align: center;
-	text-shadow: 0px 3px 6px #333;
-	font-weight: 400;
-    font-size: 1rem;
+    font-size: 1.3rem;
 }
 
 nav ul li a{
     text-decoration: none;
     margin: 2rem;
-    color: #000;
-	cursor: pointer;
+    color: black;
 }
-
-nav ul li a.active{
-	border-bottom: 2px solid #c33;
-}
-
-nav ul li a:hover,
-nav ul li a:focus{
-    border-bottom: 2px solid #c33;
-}	
 
 .nav ul li a.active{
     border: 2px solid red;
@@ -733,24 +722,13 @@ h6{
 	
     .logo{height: 7.5rem;}
 	
-	/* Nav Bar */
+	footer .footer-row{flex-direction: row;}
 
-	nav{
-		height: 3rem;
-		width: 100%;
-	}
+    .footer-container{margin: 1rem 0 2.5rem 0;}
 
-	nav ul{
-	   flex-direction: row;
-	}
+	.footer-container h5{font-size: 1rem;}
 
-	nav ul li{
-		list-style: none;
-		margin: auto;
-		text-align: center;
-		font-size: .8rem;
-	}
-	
+	.footer-container p{font-size: .7rem;}
 	
 	.service-description{
 		font-size: 1rem;
@@ -759,14 +737,6 @@ h6{
 	.service-logo-description .section-container{font-size: 1rem;}
 	
 	article{font-size: 1rem;}
-	
-	footer .footer-row{flex-direction: row;}
-
-    .footer-container{margin: 1rem 0 2.5rem 0;}
-
-	.footer-container h5{font-size: 1rem;}
-
-	.footer-container p{font-size: .7rem;}
 }
 
 @media (min-width:900px){
@@ -800,7 +770,6 @@ h6{
 		font-size: 1rem;
 	}
 	
-	nav ul li{font-size: 1rem;}
 } 
 
 
